@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>money master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome Money Master</h1>
+    </header>
+    <main>
+        <section class="money-area">
+            <div class="Wel-img">
+                <img src="money.jpg" alt="">
+            </div>
+            <div class="calculate-area">
+                <div class="income-area">
+                    <h2>Income</h2>
+                    <p>Income: <input id="income" type="text" name=""></p>
+                </div>
+                <div class="expenses-area">
+                    <h2>Expenses</h2>
+                    <p>Food: <input id="food" type="text" name=""></p>
+                    <p>Rent: <input id="rent" type="text" name=""></p>
+                    <p>Clothes: <input id="clothes" type="text" name=""></p>
+                    <button id="calculateBtn">Calculate</button>
+                    <div>
+                        <h3>Total Expenses: <span id="total-expenses">00</span> </h3>
+                        <h3>Blance: <span id="R-blance">00</span> </h3>
+                    </div>
+                </div>
+                <div class="saving-area">
+                    <p>Save: <input id="saving-value" type="text" name="" > % <button id="save-btn">Save</button></p>
+                    <div>
+                        <h3>Saving Amount: <span id="saving-amount">2000</span> </h3>
+                        <h3>Remaining Balance:  <span id="remaining-blance">2500</span> </h3>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <script src="money.js"></script>
+</body>
+</html>

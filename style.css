@@ -1,0 +1,16 @@
+
+header{
+    text-align: center;
+    margin: 70px 0px;
+}
+.money-area{
+    display: flex;
+}
+
+.calculate-area{
+    width: 350px;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 60px;
+    border-radius: 10px;
+}
